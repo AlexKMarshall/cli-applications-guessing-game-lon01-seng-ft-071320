@@ -13,13 +13,11 @@ def get_input
 end
 
 def guess
-  (rand(6) + 1).to_s
-    
+  guess = rand(6) + 1
+  guess.to_s
 end
 
 def respond(computer_guess, input)
-  p input
-  p computer_guess
   return "Goodbye!" if input == "exit"
   return "Sorry! The computer guessed #{computer_guess}." if input != computer_guess
 end
