@@ -4,8 +4,6 @@ def run_guessing_game
   input = get_input
   
   puts respond(computer_guess, input)
-  #puts "Goodbye!" if input === "exit"
-  #puts "Sorry! The computer guessed #{computer_guess}." if input != computer_guess
 end
 
 def get_input
