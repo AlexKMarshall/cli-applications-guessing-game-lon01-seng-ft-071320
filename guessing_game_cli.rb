@@ -18,6 +18,7 @@ end
 
 def respond(computer_guess, input)
   p input
+  p computer_guess
   return "Goodbye!" if input === "exit"
   return "Sorry! The computer guessed #{computer_guess}." if input != computer_guess
 end
