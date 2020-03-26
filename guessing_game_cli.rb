@@ -8,3 +8,6 @@ end
 def get_input
   gets.chomp
 end
+
+def guess
+ end 
