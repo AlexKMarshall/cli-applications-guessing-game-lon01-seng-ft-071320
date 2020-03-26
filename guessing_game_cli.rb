@@ -1,5 +1,6 @@
 # Code your solution here!
 def run_guessing_game
+  computer_guess = guess
   input = get_input
   
   puts "Goodbye!" if input === "exit"
