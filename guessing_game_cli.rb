@@ -10,4 +10,5 @@ def get_input
 end
 
 def guess
- end 
+  rand(6) + 1
+end 
