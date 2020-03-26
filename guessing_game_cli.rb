@@ -13,4 +13,9 @@ end
 
 def guess
   rand(6) + 1
-end 
+end
+
+def respond(computer_guess, input)
+  return "Goodbye!" if input === "exit"
+  return "Sorry! The computer guessed #{computer_guess}." if input != computer_guess
+end
