@@ -14,6 +14,7 @@ end
 
 def guess
   rand(6) + 1
+    .to_s
 end
 
 def respond(computer_guess, input)
